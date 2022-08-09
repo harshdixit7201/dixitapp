@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{>header}}
+  </head>
+  <body>
+    {{>navbar}}
+    <div class="container-fluid main_header ">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- left side div-->
+                <div class="col-md-12 col-12 main_header_left align-items-center">
+                    <figure>
+            <img src="../images/404page.png" class="w-100 err"  alt="error" style="max-width: 40rem;">
+            </figure>
+            <h1>{{errorMsg}}</h1>
+            <a href="/"><button class="btn ">Go Back</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  {{>footer}}
+    
+  </body>
+</html>
